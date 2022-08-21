@@ -1,0 +1,65 @@
+---
+import Layout from "../layouts/common.astro";
+---
+
+<Layout title="Use this great tool">
+	<p class="text-center text-gray-700">Tagline that describes the tool</p>
+	<button
+		class="block text-white bg-green-800 px-5 py-3 mx-auto mt-10 font-bold rounded-xl hover:bg-green-400 hover:text-black"
+		>Sign up now
+	</button>
+
+	<div class="mt-20 mx-auto text-center max-w-3xl px-10">
+		<p class="mt-2 text-2xl font-extrabold text-gray-900 tracking-tight">
+			Everything you need to know about this app
+		</p>
+		<p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+			A great list of things it allows you to do
+		</p>
+
+		<div class="mt-12 grid gap-8 grid-cols-1 md:grid-cols-2">
+			<div
+				class="blur-sm hover:filter-none bg-gray-50 outline outline-blue-500 rounded-br-full outline-offset-4 hover:rounded-lg px-6 pb-8 hover:scale-125 hover:drop-shadow-2xl hover:z-10"
+			>
+				<h3
+					class="mt-8 text-lg font-medium text-blue-900 tracking-tight"
+				>
+					First benefit
+				</h3>
+				<p class="mt-5 text-gray-500">You can save time</p>
+			</div>
+
+			<div
+				class="blur-sm hover:filter-none bg-gray-50 outline outline-pink-500 rounded-bl-full outline-offset-4 hover:rounded-lg px-6 pb-8 hover:scale-125 hover:drop-shadow-2xl"
+			>
+				<h3
+					class="mt-8 text-lg font-medium text-pink-900 tracking-tight"
+				>
+					Second benefit
+				</h3>
+				<p class="mt-5 text-gray-500">You can save money</p>
+			</div>
+			<div
+				class="blur-sm hover:filter-none bg-gray-50 outline outline-green-500 outline-offset-4 rounded-tr-full hover:rounded-lg px-6 pb-8 hover:scale-125 hover:drop-shadow-2xl hover:z-10"
+			>
+				<h3
+					class="mt-8 text-lg font-medium text-purple-900 tracking-tight"
+				>
+					3rd benefit
+				</h3>
+				<p class="mt-5 text-gray-500">You can avoid X</p>
+			</div>
+
+			<div
+				class="blur-sm hover:filter-none bg-gray-50 outline outline-purple-500 outline-offset-4 rounded-tl-full hover:rounded-lg px-6 pb-8 hover:scale-125 hover:drop-shadow-2xl"
+			>
+				<h3
+					class="mt-8 text-lg font-medium text-gray-900 tracking-tight"
+				>
+					4th benefit
+				</h3>
+				<p class="mt-5 text-gray-500">You can do Y</p>
+			</div>
+		</div>
+	</div>
+</Layout>
